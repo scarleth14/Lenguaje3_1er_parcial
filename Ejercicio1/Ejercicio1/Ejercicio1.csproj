@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5F368A60-4FFD-4BE0-B96F-729E633C6F61}</ProjectGuid>
+    <ProjectGuid>{65860E1B-ACB3-4A20-BE54-90C6702535F4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Ejercicio1</RootNamespace>
     <AssemblyName>Ejercicio1</AssemblyName>
@@ -46,43 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Funciones.cs">
+    <Compile Include="Ejercicio 1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Funciones.Designer.cs">
-      <DependentUpon>Funciones.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FuncionesAsincronas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FuncionesAsincronas.Designer.cs">
-      <DependentUpon>FuncionesAsincronas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FuncionesDeFecha.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FuncionesDeFecha.Designer.cs">
-      <DependentUpon>FuncionesDeFecha.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Funciones_de_texto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Funciones_de_texto.Designer.cs">
-      <DependentUpon>Funciones_de_texto.cs</DependentUpon>
+    <Compile Include="Ejercicio 1.Designer.cs">
+      <DependentUpon>Ejercicio 1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Funciones.resx">
-      <DependentUpon>Funciones.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FuncionesAsincronas.resx">
-      <DependentUpon>FuncionesAsincronas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FuncionesDeFecha.resx">
-      <DependentUpon>FuncionesDeFecha.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Funciones_de_texto.resx">
-      <DependentUpon>Funciones_de_texto.cs</DependentUpon>
+    <EmbeddedResource Include="Ejercicio 1.resx">
+      <DependentUpon>Ejercicio 1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
