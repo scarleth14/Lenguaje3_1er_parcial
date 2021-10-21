@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace POO
+namespace Ejercicio2
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace POO
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CuentaBancaria());
+            Application.Run(new DespachoLegal());
         }
     }
 }

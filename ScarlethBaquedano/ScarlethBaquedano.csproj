@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EED05063-EAB9-4367-9F14-A5B99FC64475}</ProjectGuid>
+    <ProjectGuid>{33CAC2FD-959E-4087-905A-FCF2F4205FB8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>POO</RootNamespace>
-    <AssemblyName>POO</AssemblyName>
+    <RootNamespace>ScarlethBaquedano</RootNamespace>
+    <AssemblyName>ScarlethBaquedano</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,29 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cliente.cs" />
-    <Compile Include="Cuenta.cs" />
-    <Compile Include="CuentaBancaria.cs">
+    <Compile Include="Interes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CuentaBancaria.Designer.cs">
-      <DependentUpon>CuentaBancaria.cs</DependentUpon>
+    <Compile Include="Interes.Designer.cs">
+      <DependentUpon>Interes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Descuento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Descuento.Designer.cs">
+      <DependentUpon>Descuento.cs</DependentUpon>
     </Compile>
-    <Compile Include="MovimientosCuenta.cs" />
+    <Compile Include="Multiplos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Multiplos.Designer.cs">
+      <DependentUpon>Multiplos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Usuario.cs" />
-    <EmbeddedResource Include="CuentaBancaria.resx">
-      <DependentUpon>CuentaBancaria.cs</DependentUpon>
+    <EmbeddedResource Include="Descuento.resx">
+      <DependentUpon>Descuento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Interes.resx">
+      <DependentUpon>Interes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Multiplos.resx">
+      <DependentUpon>Multiplos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -78,6 +83,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -91,6 +97,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admp-finance-bsa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\353629.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-brick-lane-market-animation-clip-art-tokyo-vector-5add12612407b8.4673528215244376011476-1142x800.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\901394.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator-icon_34473.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1490820815-1_82400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486486316-arrow-film-movie-play-player-start-video_81236.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-flecha-adelante-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vision_view_eye_icon_153887.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trashbin_123015.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin_trash_delete_remove_recycle_icon_146878.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_show_icon_124811.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-borrar-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-visible-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-visible-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
